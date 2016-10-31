@@ -64,7 +64,9 @@
 		font-size:24px
 	}
 	#about-us p{
-		font-size:14px
+		font-size:14px;
+		font-family: BBadr;
+		direction: rtl
 	}.nav-tabs li{
 		width:33%
 	}
