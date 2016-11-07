@@ -7,21 +7,21 @@ jQuery(function($) {'use strict',
 		$("#clients").parallax("50%", 0.3);
 	});
 	
-	// portfolio filter
+	// product filter
 	$(window).load(function(){'use strict',
-		$portfolio_selectors = $('.portfolio-filter >li>a');
-		if($portfolio_selectors!='undefined'){
-			$portfolio = $('.portfolio-items');
-			$portfolio.isotope({
+		$product_selectors = $('.product-filter >li>a');
+		if($product_selectors!='undefined'){
+			$product = $('.product-items');
+			$product.isotope({
 				itemSelector : '.col-sm-3',
 				layoutMode : 'fitRows'
 			});
 			
-			$portfolio_selectors.on('click', function(){
-				$portfolio_selectors.removeClass('active');
+			$product_selectors.on('click', function(){
+				$product_selectors.removeClass('active');
 				$(this).addClass('active');
 				var selector = $(this).attr('data-filter');
-				$portfolio.isotope({ filter: selector });
+				$product.isotope({ filter: selector });
 				return false;
 			});
 		}

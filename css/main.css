@@ -685,7 +685,7 @@ p.title-one{
 #product
 .product-filter li a {
 	color: #686868;
-	font-size: 16px;
+	font-size: 10px;
 	text-transform: uppercase;
 	border: none;
 	background: rgba(67, 72, 78, 0);
@@ -695,7 +695,7 @@ p.title-one{
 }
 
 .product-items > div{
-  padding:0;
+  padding:10px;
 }
 
 .product-items img{
@@ -774,12 +774,14 @@ p.title-one{
 	transition: height 500ms ease 0s;
 }
 
-.mask h4 {
+.mask p {
 	color:#000;
-	font-family: roboto;
-	font-size: 14px;
-	font-weight: 200;
+	/*font-family: roboto;*/
+	font-size: 8px;
+	/*font-weight: 200;*/
 	padding: 0 35px 5px;
+	line-height: 9px;
+	text-align: center;
 }
 
 .mask i {
@@ -796,6 +798,14 @@ p.title-one{
 	color:#fff;
 }
 
+.product-image img {
+	width: 180px;
+	height: 100px;
+}
+.Composite {
+	width: 371px
+	height: 371px;
+}
 
 /*====================
 ======Contact CSS=====
@@ -1078,7 +1088,7 @@ p.title-one{
 
 
 /*==================================
-====== Portfolio Hover effect=======
+====== product Hover effect=======
 ====================================*/
 
 
