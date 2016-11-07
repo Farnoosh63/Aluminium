@@ -755,8 +755,8 @@ p.title-one{
 .mask h3 {
 	color: #43484E;
 	font-family: cabin;
-	font-size: 14px;
-	font-weight: 700;
+	font-size: 10px;
+	font-weight: 200;
 	margin-top: 30px;
 	text-transform: uppercase;
 	transition: height 500ms ease 0s;
@@ -773,10 +773,10 @@ p.title-one{
 }
 
 .mask i {
-	border: 2px solid #333;
+	border: 1px solid #333;
 	border-radius: 50%;
 	color: #333;
-	font-size: 17px;
+	font-size: 8px;
 	margin-left: 8px;
 	padding: 8px;
 }
@@ -789,10 +789,6 @@ p.title-one{
 .product-image img {
 	width: 180px;
 	height: 100px;
-}
-.Composite {
-	width: 371px
-	height: 371px;
 }
 
 /*====================
